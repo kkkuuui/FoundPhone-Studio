@@ -2,7 +2,7 @@
   "scriptVersion": 1,
   "id": "ui-test-phone-v2",
   "title": "oo 的手机",
-  "description": "Instagram 主页与 2025 年 4 月 1 日动态设定。",
+  "description": "oo 的手机；关注 imthedydraft，并查看其于 2025 年 4 月 1 日发布的动态。",
   "revision": 3,
   "phone": {
     "owner": "机主",
@@ -530,22 +530,22 @@
     ],
     "instagram": [
       {
-        "id": "ig-post-oo-20250401",
-        "title": "oo",
+        "id": "ig-post-imthedydraft-20250401",
+        "title": "imthedydraft",
         "body": "안녕하세요, 장용훈입니다 (* ’ᵕ‘ )ﾉ",
-        "sender": "oo",
+        "sender": "imthedydraft",
         "kind": "post",
         "folder": "",
         "time": "2025-04-01 12:00",
         "likes": 0,
         "comments": [],
         "meta": {
-          "username": "oo",
+          "username": "imthedydraft",
           "publishedAt": "2025-04-01",
           "imageOrder": "p4,p5,p6",
-          "profileAvatar": "p2",
-          "following": "imthedydraft",
-          "followingAvatar": "p3"
+          "profileAvatar": "p3",
+          "viewedFromProfile": "oo",
+          "viewerProfileAvatar": "p2"
         }
       }
     ],
