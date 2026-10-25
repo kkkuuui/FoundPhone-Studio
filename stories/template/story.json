@@ -530,6 +530,22 @@
     ],
     "instagram": [
       {
+        "id": "ig-profile-oo",
+        "title": "oo",
+        "body": "",
+        "sender": "oo",
+        "folder": "个人主页",
+        "time": "2025-04-01 09:41",
+        "meta": {
+          "username": "oo",
+          "profileAvatar": "p2",
+          "following": [
+            "imthedydraft"
+          ],
+          "followingAvatar": "p3"
+        }
+      },
+      {
         "id": "ig-post-imthedydraft-20250401",
         "title": "imthedydraft",
         "body": "안녕하세요, 장용훈입니다 (* ’ᵕ‘ )ﾉ",
@@ -542,7 +558,11 @@
         "meta": {
           "username": "imthedydraft",
           "publishedAt": "2025-04-01",
-          "imageOrder": "p4,p5,p6",
+          "imageOrder": [
+            "p4",
+            "p5",
+            "p6"
+          ],
           "profileAvatar": "p3",
           "viewedFromProfile": "oo",
           "viewerProfileAvatar": "p2"
