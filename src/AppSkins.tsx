@@ -731,6 +731,7 @@ export function InstagramSkin(p: SkinProps) {
     stories = p.items.filter((i) => i.folder === "Story"),
     reels = p.items.filter((i) => i.kind === "video" || i.folder === "Reels"),
     messages = p.items.filter((i) => i.folder === "私信");
+  const profile = p.items.find((i) => i.folder === "个人主页");
   const tabs = [
     { label: "首页", icon: Home },
     { label: "搜索", icon: Search },
@@ -925,7 +926,7 @@ export function InstagramSkin(p: SkinProps) {
         ) : (
           <>
             <div className="ig-profile">
-              <Avatar name={posts[0]?.sender ?? "我"} round />
+              <Avatar name={profile?.sender ?? "我"} round src={profile?.media ?? ""} />
               <div>
                 <strong>{posts.length}</strong>
                 <small>帖子</small>
@@ -939,7 +940,7 @@ export function InstagramSkin(p: SkinProps) {
                 <small>正在关注</small>
               </div>
             </div>
-            <h3 className="ig-profile-name">{posts[0]?.sender ?? "我"}</h3>
+            <h3 className="ig-profile-name">{profile?.title ?? posts[0]?.sender ?? "我"}</h3>
             <div className="ig-profile-tabs">
               <button aria-label="帖子网格" onClick={() => setShowSaved(false)}>
                 <Grid size={21} />
