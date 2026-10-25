@@ -1,16 +1,17 @@
 {
   "scriptVersion": 1,
   "id": "ui-test-phone-v2",
-  "title": "捡手机",
-  "description": "仅用于界面测试，不含剧情",
-  "revision": 2,
+  "title": "oo 的手机",
+  "description": "Instagram 主页与 2025 年 4 月 1 日动态设定。",
+  "revision": 3,
   "phone": {
     "owner": "机主",
-    "date": "2026-10-25",
+    "date": "2025-04-01",
     "time": "09:41",
     "battery": 94,
     "network": "5G",
-    "wallpaper": "apple-wwdc26"
+    "wallpaper": "sage",
+    "passcode": "050420"
   },
   "installedApps": [
     "appstore",
@@ -529,12 +530,23 @@
     ],
     "instagram": [
       {
-        "id": "test-item-instagram",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
+        "id": "ig-post-oo-20250401",
+        "title": "oo",
+        "body": "안녕하세요, 장용훈입니다 (* ’ᵕ‘ )ﾉ",
+        "sender": "oo",
+        "kind": "post",
+        "folder": "",
+        "time": "2025-04-01 12:00",
+        "likes": 0,
+        "comments": [],
+        "meta": {
+          "username": "oo",
+          "publishedAt": "2025-04-01",
+          "imageOrder": "p4,p5,p6",
+          "profileAvatar": "p2",
+          "following": "imthedydraft",
+          "followingAvatar": "p3"
+        }
       }
     ],
     "tiktok": [
